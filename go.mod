@@ -1,6 +1,6 @@
 module github.com/ZehAmor368/gokrazy-podman
 
-go 1.21.1
+go 1.21
 
 require github.com/gokrazy/gokrazy v0.0.0-20231223164253-dd38c188b448
 
