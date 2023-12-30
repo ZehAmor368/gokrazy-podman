@@ -49,7 +49,7 @@ func grafana() error {
 		"-td",
 		"--network", "host",
 		"--name", "grafana",
-		"-p 3000:3000",
+		"-p", "3000:3000",
 		"grafana/grafana")
 
 	if err != nil {
