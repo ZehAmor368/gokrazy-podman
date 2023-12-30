@@ -49,7 +49,7 @@ func grafana() error {
 		"-td",
 		"--network", "host",
 		"--name", "grafana",
-		"--volume", "/var/lib/grafana:/var/lib/grafana",
+		"--volume", "/perm/grafana:/home/mathis/grafana",
 		"-p3000:3000",
 		"docker.io/grafana/grafana:latest")
 
