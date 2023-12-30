@@ -50,7 +50,7 @@ func grafana() error {
 		"--network", "host",
 		"--name", "grafana",
 		"-p", "3000:3000",
-		"grafana/grafana")
+		"docker.io/grafana/grafana:latest")
 
 	if err != nil {
 		return err
